@@ -1,0 +1,26 @@
+# Ignorer les dossiers de dépendances
+/vendor/
+/node_modules/
+
+# Ignorer les dossiers de cache
+/var/cache/
+/var/logs/
+/var/sessions/
+/public/bundles/
+
+# Ignorer les fichiers de configuration sensibles
+.env
+.env.local
+.env.*.local
+
+# Ignorer les fichiers de déploiement et build
+/.git
+/.github
+/.idea
+/.vscode
+
+# Ignorer les fichiers spécifiques à l'environnement local
+*.log
+*.lock
+.DS_Store
+thumbs.db
